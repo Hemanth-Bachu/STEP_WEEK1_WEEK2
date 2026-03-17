@@ -68,7 +68,7 @@ public class UsernameChecker {
         UsernameChecker checker = new UsernameChecker();
 
         // Preload some users
-        checker.registerUser("john_doe", 1);
+        checker.registerUser("john_do", 1);
         checker.registerUser("admin", 2);
 
         System.out.println("john_doe available? " + checker.checkAvailability("john_doe"));
